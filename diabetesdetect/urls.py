@@ -19,7 +19,8 @@ from django.urls import path, include
 from django.views.generic import TemplateView
 
 urlpatterns = [
-    path('', TemplateView.as_view(template_name="social/index.html")),
+    # path('', TemplateView.as_view(template_name="social/index.html")),
+    path('', include('social.urls')),
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
 
