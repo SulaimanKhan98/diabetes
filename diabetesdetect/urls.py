@@ -23,6 +23,6 @@ urlpatterns = [
     path('', include('social.urls')),
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
-    
+    path('prediction/', include('prediction.urls')),
 
 ]
