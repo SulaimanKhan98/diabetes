@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-wij01jvllcrjk86a*%y@67e#5sd1n#v%-s!4a=o07z8!6-6fpd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -77,9 +77,12 @@ TEMPLATES = [
     },
 ]
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 AUTHENTICATION_BACKENDS=[
   'django.contrib.auth.backends.ModelBackend',
   'allauth.account.auth_backends.AuthenticationBackend',
+  
 ]
 
 WSGI_APPLICATION = 'diabetesdetect.wsgi.application'
