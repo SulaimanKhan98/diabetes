@@ -84,7 +84,6 @@ p {
 
 .login-container a {
   text-decoration: none;
-  color: #fff;
 }
 
 .login-form {
@@ -193,30 +192,3 @@ p {
   text-align: center;
   padding: 20px 0px;
 }
-
-/*  
-.upperSection {
-  height: 50%;
-  width: 100%;
-  background-color: black;
-  display: flex;
-}
-
-.leftBox {
-  height: 100%;
-  width: 50%;
-  background-color: brown;
-}
-
-.leftBox {
-  height: 100%;
-  width: 50%;
-  background-color: gray;
-}
-
-.lowerSection {
-  height: 50%;
-  width: 100%;
-  background-color: cornflowerblue;
-}
-*/

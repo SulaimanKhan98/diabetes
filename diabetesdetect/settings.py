@@ -160,3 +160,4 @@ SOCIALACCOUNT_PROVIDERS = {
     }
   }
 }
+
