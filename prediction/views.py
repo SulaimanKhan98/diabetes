@@ -42,11 +42,11 @@ def result(request):
   # Fetch user and create a DiabetesResult object with all necessary fields
     user = request.user
 
-    # Create a DiabetesResult instance with age included
+    
     result_instance = DiabetesResult(
         user=user,
         result=result1,
-        age=val7,  # Add the age field
+        age=val7, 
         blood_pressure=val2,
         bmi=val5,
         skin_thickness=val3,
